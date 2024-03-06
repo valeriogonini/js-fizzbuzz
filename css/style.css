@@ -1,0 +1,51 @@
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.scacchi{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 10px;
+   
+    
+}
+.bg{
+    background-color: brown;
+}
+.num{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blue;
+}
+.fizz{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    
+}
+.buzz{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(51, 51, 104);
+    
+}
+.fizzbuzz{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:violet;
+    
+}
+
